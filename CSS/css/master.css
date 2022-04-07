@@ -1,0 +1,69 @@
+/*CSS Syntax live */
+/* to leave a commentent in css us theses open and clsoing statments */
+
+/* the css syntax is broken up into a simple manner selectors {property and value} below is an example of the syntax */
+
+/*Using just selectors*/
+
+/* here we will make changes to body of the html */
+
+body /*the selector of body tells the code to adjust anything with the <body> element of the html code */ {
+  /* the {} are used to open and close the selector */
+  background-color: /* the background-color is the property in the body element you want to style */ black; /* this is code of the color you wish to set to the body background */
+}
+/* here we will make changes to just all the h1 headers in the body of the html */
+h1 {
+  color: #000000;
+}
+/* here we will make changes to just all the h2 headers in the body of the html */
+h2 {
+  color: #808080;
+}
+/* here we will make changes to just all the h3 headers in the body of the html */
+h3 {
+  color: #ffa500;
+}
+/* here we will make changes to just all the paragraphs in the body of the html */
+p {
+  color: #008000;
+}
+/* you may of noticed that not all the text where changed, that's because we only identify by the html element class so how can you change all the text color? This is where class settings come in*/
+
+/*css classes */
+
+/* below we well now target the classes set in the HTML code */
+.header {
+  color: blue; /* notice this time I just typed in the name of the color as well as id the selector with .header you will now see the header called header class is blue while the other headers in h1 class are the black*/
+}
+.text {
+  color: red; /* like the header this has the same effect */
+}
+
+/* css ID sectors */
+
+/* Lets now target our CSS IDs in our HTML code */
+#heading {
+  color: purple; /* as you can see this alot like using class ids you can use this to further identify different parts of your HTML code to add more styling to your page */
+}
+/* note the proper use of classes and ids are has follows */
+/* Uses classes to identify a group of related items, and use id to ad special style to single element */
+/* now lets looks at a css sudo class or state */
+/* to show this lets just add a simple hover state to our image with css */
+h5:hover {
+  /*note by adding :hover at the end of the selector I'm adding what is called a sudo or state to this selector */
+  color: red; /* you will see that the h5 elements are effected and turn red when hovered over */
+}
+
+/* The Div element in HTML is only usagble if using css. Beflow is an example of what that dose in HTML wiht CSS */
+div {
+  margin-left: 5em;
+  margin-right: 5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: white;
+}
+/* hear I have added some settings for the footer*/
+
+#footer {
+  color: white;
+}

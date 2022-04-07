@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SiteTitle</title>
+    <!-- setup and external CSS Style for your HTML Site -->
+    <link rel="stylesheet" href="css/master.css">
+    <!-- This element is used for commenting your code -->
+</head>
+<body>
+    <!-- Remember to always use your opening element <element > and closing element </element >-->
+    <h1>Simple HTML Page</h1><!-- This is the element for adding a header text, there are 6 types of headers in HTML-->
+    <p><!-- This statement adds a paragraph to your page-->
+        This is simple site designed to showcase a base understanding of HTML coding. To see the full code and comments explaining each line download this project file at <a href="https://github.com/mhuskey26/SimpleHTML.git">GitHub</a></p>
+    <hr><!-- This statement leaves a horizontal line on the page, also note it doesn't need a closing statement or is also known as a self closing statement-->
+    <!--Header elements - Listed below is examples of all the different heading sizes you can use in HTML coding. Note there are a max of 6. With 1 being the largest and 6 the smallest-->
+    <h1>Heading level 1</h1>
+    <h2>Heading level 2</h2>
+    <h3>Heading level 3</h3>
+    <h4>Heading level 4</h4>
+    <h5>Heading level 5</h5>
+    <h6>Heading level 6</h6>
+    <hr>
+    <!--The following uses a mix of HTML elements with HTML Attributes, attributes are used within elements to had style or functions to the element-->
+     <h3>Text in HTML</h3>
+     <!--in the line below we have added an element and attribute inside the <p> element-->
+     <p>This is code allows you to input text or paragraphs.<br>adding a break in your text.<!--this is the <br> or break line element, note it's also a self-closing element-->
+        <em>Adding italicize your text.</em><!--this is known as HTML Attribute the <em> italicize your text, note all attributes also have opening and closing statement--></p>
+     <p>So what if you need to have multple line breaks in you text,<br> but also neeed to <em>italicize and even</em><br>italicize and even added<b> bolding</b> or <font size="32">changing font size?</font></p>
+     <h3>Ancher Tags</h3>
+    <!--Adding links and tags to text -->
+    <p><a href="index.html">This refreshes the page</a></p>
+    <!--You can also use the attribute of <a href> to add a link to your page-->
+    <a href="index.html">Reload Home</a>
+    <hr>
+    <!--Building list in HTML you can use the following code -->
+        <h2>Making list in HTML</h2>
+        <h3>Unorganized List</h3><!--This code lets you build a simple unorganized list in HTML -->
+        <ul>
+            <li>List item</li>
+            <li>List item</li>
+                <ul><!--Adding the <ul> tag to this list will allow you to nest another list withing the list not you must close out both statements-->
+                    <li>This is a code for a nested listed</li>
+                </ul>
+            <li>List item</li>
+        </ul>
+        <h3>Organized List</h3><!--This code lets you build a simple Organized list in HTML-->
+        <ol>
+            <li>Organized list</li>
+                <ol type="a"><!--Note you can also use this to change the main list type as well-->
+                    <li>Example of sub-organized nested list</li>
+                </ol>
+            <li>Organized list</li>
+            <li>Organized list</li>
+        </ol>
+        <hr>
+        <h2>Adding Images</h2>
+        <!-- This code inputs a single image -->
+        <img src="images\Beethoven.jpg" alt="Beethoven">
+        <hr>
+        <h2>Adding Tables</h2>
+        <!-- Below is example of adding a simple table into HTML -->
+        <h3>Simple Table</h3>
+        <Table>
+            <tr>Row 1</tr>
+            <tr>Row 2</tr>
+            <tr>Row 3</tr>
+        </Table>
+        <h3>Tables with headers</h3>
+        <table>
+            <thead><!-- This adds a header to the table-->
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                    <th>Header 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Body 1</td>
+                    <td>Body 2</td>
+                    <td>Body 3</td>
+                </tr>
+            </tbody>
+        </table>
+       <!--  <table> Note you can also add a header and body by simply just using the <th> for header and <tb> for body
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                    <th>Header 3</th>
+                </tr>
+                <tr>
+                    <td>Body 1</td>
+                    <td>Body 2</td>
+                    <td>Body 3</td>
+                </tr>
+        </table>-->
+        <hr>
+        <!-- Note you can simple add the form code and layout wihtin HTML but without javascripting it will have no function-->
+        <h2>Adding A Simple Forms</h2>
+        <form class="" action="index.html" method="post">
+            <label>Your Name</label>
+            <input type="text" name="" value="">
+            <label>Your Email</label>
+            <input type="email" name="" value="">
+            <input type="submit" name="">
+        </form>
+        <br>
+</body>
+</html>
